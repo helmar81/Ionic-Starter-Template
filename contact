@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>contact</ion-title>
+     <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab2"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header
+<ion-grid fixed>
+
+<ion-content>
+
+<ion-card>
+  <ion-card-header>
+  <ion-card-subtitle>Helmar@
+  </ion-card-subtitle>
+  <ion-card-title>Contact details
+  </ion-card-title>
+  </ion-card-header>
+
+   
+    <ion-card-content>
+    <img src="assets/me.jpg" alt="Avatar" class="avatar">
+   
+ <h1>Web Applikation Developer</h1>
+ <p>If you also want a progressiv Web App, that is responsive on all devices and availabe on Google Play and Apple Store as well - get in touch.
+ </p>
+
+<ion-item color="success" href=mailto:helmar81@gmail.com   target="blank">
+<ion-icon name="mail" slot="start"></ion-icon>
+<ion-label>helmar81@gmail.com
+</ion-label>
+ </ion-item>
+                        
+ <ion-item color="secondary" href="https://www.facebook.com/helmar.baechle"   target="blank">
+ <ion-icon name="logo-facebook" slot="start"></ion-icon>
+ <ion-label>Facebook
+  </ion-label>
+   </ion-item>
+  <ion-icon name="logo-instagram" slot="start" ></ion-icon>
+  <ion-label></ion-label>
+     
+          
+<ion-item color="success" href= "https://www.instagram.com/helmar.baechle/"  target="blank">
+<ion-icon name="logo-instagram" slot="start"></ion-icon>
+<ion-label>Instagram
+</ion-label>
+ </ion-item>
+                        
+ <ion-item color="secondary" href="https://www.uspekhi.web.app"   target="blank">
+ <ion-icon name="planet" slot="start"></ion-icon>
+ <ion-label>www.uspekhi.web.app
+  </ion-label>
+   </ion-item>
+  <ion-icon name="planet" slot="start"></ion-icon>
+  <ion-label></ion-label>         
+
+<ion-item color="success" href="tel:+44 7502907567"   target="blank">
+<ion-icon name="logo-whatsapp" slot="start"></ion-icon>
+<ion-label>+44 7502907567
+</ion-label>
+ </ion-item>
+                        
+ <ion-item color="secondary" href="https://youtu.be/TBIjvhEVUTc"   target="blank">
+ <ion-icon name="logo-youtube" slot="start"></ion-icon>
+ <ion-label>Youtube
+  </ion-label>
+   </ion-item>
+       
+    <img src="assets/vt.jpg" alt="HelmarBachle" class="rectangle">      
+
+</ion-card-content>
+</ion-card>
+</ion-content>
